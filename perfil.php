@@ -16,8 +16,18 @@ class Usuari {
     }
 
     public function __toString() {
-        return "<p>Usuari: " . htmlspecialchars($this->nom) . "</p>" .
-               "<p>E-mail: " . htmlspecialchars($this->email) . "</p>";
+        return '
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>Nom d\'usuari</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>' . htmlspecialchars($this->nom) . '</td>
+                    <td>' . htmlspecialchars($this->email) . '</td>
+                </tr>
+            </table>
+        ';
     }
 
  

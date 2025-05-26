@@ -1,4 +1,4 @@
-Exercicis IT Academy Sprint 1 Nivell 1
+Exercicis IT Academy Sprint 1, Tema 6, Nivell 1
 
 - Exercici 1
 Crea un formulari HTML amb els camps que vulguis (almenys un nom o username). El formulari ha de tenir com a action un document PHP. 
